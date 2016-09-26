@@ -1,0 +1,8 @@
+package br.com.agentemaps.dao;
+
+public class Snippet {
+	public static void main(String[] args) {
+		FamiliaDAO
+	}
+}
+

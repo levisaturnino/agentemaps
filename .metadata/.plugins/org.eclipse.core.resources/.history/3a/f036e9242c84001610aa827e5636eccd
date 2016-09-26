@@ -1,0 +1,21 @@
+package br.com.agentemaps.dao;
+
+import org.hibernate.mapping.List;
+
+import br.com.agentemaps.model.Familia;
+
+	public interface FamiliaDAO {
+
+		
+		public void adionar(Familia familia);
+
+		public List listar();
+
+		public void alterar(Familia familia);
+
+		public void deletar(Familia familia);
+		
+		
+	}
+
+

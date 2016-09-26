@@ -1,0 +1,17 @@
+package br.com.agentemaps.service;
+
+import java.util.List;
+
+import br.com.agentemaps.model.Familia;
+
+public interface FamiliaService {
+
+	public void salvar(Familia familia);
+
+	public List<Familia> listar();
+
+	public void atualizar(Familia familia);
+
+	public void excluir(Familia familia);
+
+}

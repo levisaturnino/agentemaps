@@ -1,0 +1,19 @@
+package com.accenture.academico.dao;
+
+import com.accenture.academico.model.Aluno;
+
+public interface FamiliaDAO {
+
+	
+	public void adionar(Familia familia);
+
+	public List<Familia> listar();
+
+	public void alterar(Familia familia);
+
+	public void deletar(Familia familia);
+	
+	
+}
+
+

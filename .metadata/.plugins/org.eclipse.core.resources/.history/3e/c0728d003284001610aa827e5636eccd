@@ -1,0 +1,82 @@
+package br.com.agentemaps.main;
+
+import java.sql.Date;
+import java.sql.Time;
+
+import br.com.agentemaps.dao.AdministradorDAO;
+import br.com.agentemaps.model.Administrador;
+import br.com.agentemaps.service.AdministradorServiceImpl;
+import br.com.agentemaps.util.HibernateUtil;
+
+public class AdministradorTeste {
+	
+	
+	public static void main(String[] args) {
+		
+	
+	HibernateUtil.getSessionFactory().openSession();
+
+	
+	Administrador admin = new Administrador();
+	
+	
+	AdministradorServiceImpl administradorServiceImpl = new AdministradorServiceImpl();
+	
+	
+	
+	admin.setNome("Levi Saturnino");
+	admin.setCpf("432432423423");
+	admin.setLogin("leviSaturnino");
+	admin.setSenha("1234");
+	
+	
+
+	EnderecoDAO enderecoDAO = new EnderecoDAO();
+
+	Endereco endereco = new Endereco();
+
+
+	
+	ClienteDAO clienteDAO = new ClienteDAO();
+
+	cliente.setCelular("(47) 1111-2222");
+	cliente.setEmail("solaris@javapro.com.br");
+	cliente.setNome("Fulano Solaris");
+	cliente.setTelefone("(47) 3333-7777");
+	cliente.setEndereco(endereco);
+
+	endereco.setBairro("centro");
+	endereco.setCep("89999-999");
+	endereco.setCidade("Joinville");
+	endereco.setComplemento("casa");
+	endereco.setNumero(new Integer(1));
+	endereco.setRua("Av. Principal");
+	endereco.setUf("SC");
+	endereco.setCliente(cliente);
+	clienteDAO.salvar(cliente);
+	enderecoDAO.salvar(endereco);
+
+	LocacaoDAO locacaoDAO = new LocacaoDAO();
+
+	Locacao locacao = new Locacao();
+
+	locacao.setDataDevolucao(new Date(System.currentTimeMillis()));
+	locacao.setDataEmprestimo(new Date(System.currentTimeMillis()));
+
+	locacao.setObservacao("Devolucao final de semana");
+	locacao.setHoraEmprestimo(new Time(System.currentTimeMillis()));
+
+	locacao.setCliente(cliente);
+
+	MidiaDAO midiaDAO = new MidiaDAO();
+	
+	Midia midia = (Midia) midiaDAO.buscaMidia(new Integer(2));
+	
+	locacao.setMidia(midia);
+	locacaoDAO.salvar(locacao);
+	
+	
+	System.out.println("Cadastros gerados com sucesso!");
+	}
+
+}

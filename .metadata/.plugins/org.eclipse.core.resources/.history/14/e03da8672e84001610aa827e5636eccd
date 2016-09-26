@@ -1,0 +1,36 @@
+package br.com.agentemaps.service;
+
+import java.util.List;
+
+import br.com.agentemaps.dao.FamiliaDAO;
+import br.com.agentemaps.model.Familia;
+
+public class FamiliaServiceImpl implements FamiliaService{
+	
+	FamiliaDAO FamiliaDAO;
+
+	@Override
+	public void salvar(Familia familia) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public List<Familia> listar() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void atualizar(Familia familia) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void excluir(Familia familia) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

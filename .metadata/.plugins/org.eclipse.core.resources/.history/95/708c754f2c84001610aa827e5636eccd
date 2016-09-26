@@ -1,0 +1,23 @@
+package br.com.agentemaps.dao;
+
+
+
+import java.util.List;
+
+import br.com.agentemaps.model.Familia;
+
+	public interface FamilaDAO {
+
+		
+		public void adionar(Familia familia);
+
+		public List<Familia> listar();
+
+		public void alterar(Familia familia);
+
+		public void deletar(Familia familia);
+		
+		
+	}
+
+

@@ -1,0 +1,47 @@
+package br.com.agentemaps.service;
+
+import java.util.List;
+
+import br.com.agentemaps.dao.AdministradorDAO;
+import br.com.agentemaps.dao.FamiliaDAO;
+import br.com.agentemaps.model.Familia;
+
+public class AdministradorServiceImpl implements AdministradorService{
+	
+	AdministradorDAO administradorDAO;
+
+
+
+	public AdministradorDAO getAdministradorDAO() {
+		return administradorDAO;
+	}
+
+	public void setAdministradorDAO(AdministradorDAO administradorDAO) {
+		this.administradorDAO = administradorDAO;
+	}
+
+	@Override
+	public void salvar(Administrador administrador) {
+		administradorDAO.salvar(administrador);
+		
+	}
+
+	@Override
+	public List<Administrador> listar() {
+		
+		return administradorDAO.listar();
+	}
+
+	@Override
+	public void atualizar(Administrador administrador) {
+		administradorDAO.atualizar(administrador);
+		
+	}
+
+	@Override
+	public void excluir(Administrador administrador) {
+	administradorDAO.excluir(administrador);
+		
+	}
+
+}

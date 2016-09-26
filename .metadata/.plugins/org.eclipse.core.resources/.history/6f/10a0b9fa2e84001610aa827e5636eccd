@@ -1,0 +1,17 @@
+package br.com.agentemaps.dao;
+
+import java.util.List;
+
+import br.com.agentemaps.model.Familia;
+
+public interface AdministradorDAO {
+
+	public void salvar(Administrador administrador);
+
+	public List<Familia> listar();
+
+	public void atualizar(Familia familia);
+
+	public void excluir(Familia familia);
+
+}
