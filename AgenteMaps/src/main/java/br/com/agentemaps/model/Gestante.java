@@ -51,9 +51,9 @@ public class Gestante implements java.io.Serializable {
 		this.fatoresRisco = fatoresRisco;
 	}
 
-	@GenericGenerator(name = "generator", strategy = "foreign", parameters = @Parameter(name = "property", value = "membro"))
+	@GenericGenerator(name = "fk_gestante_membro", strategy = "foreign", parameters = @Parameter(name = "property", value = "membro"))
 	@Id
-	@GeneratedValue(generator = "generator")
+	@GeneratedValue(generator = "fk_gestante_membro")
 
 	@Column(name = "membro_id", unique = true, nullable = false)
 	public int getMembroId() {

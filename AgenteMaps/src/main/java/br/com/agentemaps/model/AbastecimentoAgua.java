@@ -40,9 +40,9 @@ public class AbastecimentoAgua implements java.io.Serializable {
 		this.outros = outros;
 	}
 
-	@GenericGenerator(name = "generator", strategy = "foreign", parameters = @Parameter(name = "property", value = "familia"))
+	@GenericGenerator(name = "fk_abastecimento_agua_familia", strategy = "foreign", parameters = @Parameter(name = "property", value = "familia"))
 	@Id
-	@GeneratedValue(generator = "generator")
+	@GeneratedValue(generator = "fk_abastecimento_agua_familia")
 
 	@Column(name = "familia_id", unique = true, nullable = false)
 	public int getFamiliaId() {

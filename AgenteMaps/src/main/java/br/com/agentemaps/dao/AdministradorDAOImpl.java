@@ -11,8 +11,14 @@ import br.com.agentemaps.model.Administrador;
 import br.com.agentemaps.model.Familia;
 import br.com.agentemaps.util.HibernateUtil;
 
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Repository;
+@Repository
 public class AdministradorDAOImpl implements AdministradorDAO{
-
+	private static final Logger logger = LoggerFactory.getLogger(AdministradorDAOImpl.class);
 	Session sessao = null;
 	Transaction transacao = null;
 

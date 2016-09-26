@@ -33,8 +33,10 @@
 		<property name="gerenate_statistics">true</property>
 		<property name="use_sql_comments">true</property>
 
+
+	<mapping class="br.com.agentemaps.service.AdministradorServiceImpl" />
 		<!-- <mapping resource="com/livro/capitulo3/crudxml/Contato.hbm.xml" /> -->
-		<mapping class="br.com.agentemaps.model.AbastecimentoAgua" />
+	<!-- 	<mapping class="br.com.agentemaps.model.AbastecimentoAgua" />
 		<mapping class="br.com.agentemaps.model.Administrador" />
 		<mapping class="br.com.agentemaps.model.Agente" />
 		<mapping class="br.com.agentemaps.model.DestinoFezes" />
@@ -46,6 +48,6 @@
 		<mapping class="br.com.agentemaps.model.Hipertenso" />
 		<mapping class="br.com.agentemaps.model.Membro" />
 		<mapping class="br.com.agentemaps.model.TipoCasa" />
-		<mapping class="br.com.agentemaps.model.TratamentoAgua" />
+		<mapping class="br.com.agentemaps.model.TratamentoAgua" /> -->
 	</session-factory>
 </hibernate-configuration>

@@ -23,7 +23,7 @@ public class AdministradorTeste {
 	
 	AdministradorServiceImpl administradorServiceImpl = new AdministradorServiceImpl();
 	
-	
+
 	
 	admin.setNome("Levi Saturnino");
 	admin.setCpf("432432423423");
@@ -31,7 +31,7 @@ public class AdministradorTeste {
 	admin.setSenha("1234");
 	
 	
-	AdministradorDAOImpl adminImpl = new AdministradorDAOImpl();
+	AdministradorServiceImpl adminImpl = new AdministradorServiceImpl();
 	
 	
 	adminImpl.salvar(admin);

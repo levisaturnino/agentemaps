@@ -51,9 +51,9 @@ public class Hipertenso implements java.io.Serializable {
 		this.observacoes = observacoes;
 	}
 
-	@GenericGenerator(name = "generator", strategy = "foreign", parameters = @Parameter(name = "property", value = "membro"))
+	@GenericGenerator(name = "fk_hipertenso_membro", strategy = "foreign", parameters = @Parameter(name = "property", value = "membro"))
 	@Id
-	@GeneratedValue(generator = "generator")
+	@GeneratedValue(generator = "fk_hipertenso_membro")
 
 	@Column(name = "membro_id", unique = true, nullable = false)
 	public int getMembroId() {

@@ -2,6 +2,7 @@ package br.com.agentemaps.service;
 
 import java.util.List;
 
+import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
 
 import org.springframework.stereotype.Service;
@@ -9,8 +10,10 @@ import org.springframework.transaction.annotation.Transactional;
 
 import br.com.agentemaps.dao.AdministradorDAO;
 import br.com.agentemaps.model.Administrador;
+@ManagedBean(name="administradorService")
 @SessionScoped
 @Service
+
 public class AdministradorServiceImpl implements AdministradorService{
 	
 	AdministradorDAO administradorDAO;

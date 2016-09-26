@@ -46,9 +46,9 @@ public class Diabetico implements java.io.Serializable {
 		this.fazExercicios = fazExercicios;
 	}
 
-	@GenericGenerator(name = "generator", strategy = "foreign", parameters = @Parameter(name = "property", value = "membro"))
+	@GenericGenerator(name = "fk_diabetico_membro", strategy = "foreign", parameters = @Parameter(name = "property", value = "membro"))
 	@Id
-	@GeneratedValue(generator = "generator")
+	@GeneratedValue(generator = "fk_diabetico_membro")
 
 	@Column(name = "membro_id", unique = true, nullable = false)
 	public int getMembroId() {

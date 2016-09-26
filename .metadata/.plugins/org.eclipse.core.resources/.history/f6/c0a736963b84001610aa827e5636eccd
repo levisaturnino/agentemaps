@@ -1,0 +1,57 @@
+package br.com.agentemaps.service;
+
+import java.util.List;
+
+import javax.faces.bean.SessionScoped;
+
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import br.com.agentemaps.dao.AdministradorDAO;
+import br.com.agentemaps.model.Administrador;
+@ManagedBean(name="AdministradorService")
+@SessionScoped
+@Service
+public class AdministradorServiceImpl implements AdministradorService{
+	
+	AdministradorDAO administradorDAO;
+
+	
+	public AdministradorDAO getAdministradorDAO() {
+		return administradorDAO;
+	}
+
+	public void setAdministradorDAO(AdministradorDAO administradorDAO) {
+		this.administradorDAO = administradorDAO;
+	}
+	
+	
+	@Override
+	@Transactional
+	public void salvar(Administrador administrador) {
+		administradorDAO.salvar(administrador);
+		
+	}
+
+	@Override
+	@Transactional
+	public List<Administrador> listar() {
+		return administradorDAO.listar();
+	}
+
+	@Override
+	@Transactional
+	public void atualizar(Administrador administrador) {
+		administradorDAO.atualizar(administrador);
+		
+	}
+
+	@Override
+	@Transactional
+	public void excluir(Administrador administrador) {
+		administradorDAO.excluir(administrador);
+		
+	}
+
+
+}

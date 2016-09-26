@@ -43,9 +43,9 @@ public class DestinoFezes implements java.io.Serializable {
 		this.ceuAberto = ceuAberto;
 	}
 
-	@GenericGenerator(name = "generator", strategy = "foreign", parameters = @Parameter(name = "property", value = "familia"))
+	@GenericGenerator(name = "fk_destino_fezes_familia", strategy = "foreign", parameters = @Parameter(name = "property", value = "familia"))
 	@Id
-	@GeneratedValue(generator = "generator")
+	@GeneratedValue(generator = "fk_destino_fezes_familia")
 
 	@Column(name = "familia_id", unique = true, nullable = false)
 	public int getFamiliaId() {
