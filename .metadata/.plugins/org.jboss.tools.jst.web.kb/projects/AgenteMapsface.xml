@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kb-project>
+ <depends-on-projects/>
+ <used-by-projects/>
+ <paths>
+  <path value="/home/saturnino/.m2/repository/org/springframework/spring-aop/3.2.13.RELEASE/spring-aop-3.2.13.RELEASE.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/hibernate/hibernate-core/4.3.5.Final/hibernate-core-4.3.5.Final.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/tomcat-i18n-fr.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/ecj-4.4.2.jar"/>
+  <path value="/home/saturnino/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar"/>
+  <path value="/home/saturnino/.m2/repository/javax/servlet/jsp/jsp-api/2.1/jsp-api-2.1.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/catalina-ha.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/aspectj/aspectjrt/1.7.4/aspectjrt-1.7.4.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/tomcat-coyote.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/javassist/javassist/3.18.1-GA/javassist-3.18.1-GA.jar"/>
+  <path value="/home/saturnino/.m2/repository/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/tomcat-i18n-ja.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/servlet-api.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/springframework/spring-webmvc/3.2.13.RELEASE/spring-webmvc-3.2.13.RELEASE.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-3.2.13.RELEASE.jar/META-INF/spring-form.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-spring-webmvc-3.2.13.RELEASE.jar/META-INF/spring.tld" project="AgenteMaps"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/home/saturnino/.m2/repository/org/springframework/spring-jdbc/4.0.3.RELEASE/spring-jdbc-4.0.3.RELEASE.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/springframework/spring-core/3.2.13.RELEASE/spring-core-3.2.13.RELEASE.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/tomcat-i18n-es.jar"/>
+  <path value="/home/saturnino/.m2/repository/commons-dbcp/commons-dbcp/1.4/commons-dbcp-1.4.jar"/>
+  <path value="/home/saturnino/.m2/repository/jstl/jstl/1.2/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c-1_0-rt.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c-1_0.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/c.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt-1_0-rt.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt-1_0.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fmt.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/fn.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/permittedTaglibs.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/scriptfree.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql-1_0-rt.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql-1_0.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/sql.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x-1_0-rt.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x-1_0.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar/META-INF/x.tld" project="AgenteMaps"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/home/saturnino/.m2/repository/org/jboss/logging/jboss-logging-annotations/1.2.0.Beta1/jboss-logging-annotations-1.2.0.Beta1.jar"/>
+  <path value="/home/saturnino/.m2/repository/ch/qos/logback/logback-core/1.0.13/logback-core-1.0.13.jar"/>
+  <path value="/home/saturnino/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/springframework/spring-tx/4.0.3.RELEASE/spring-tx-4.0.3.RELEASE.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/tomcat-jdbc.jar"/>
+  <path value="/home/saturnino/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar"/>
+  <path value="/home/saturnino/.m2/repository/javax/servlet/jstl/1.2/jstl-1.2.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/c-1_0-rt.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/c-1_0.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/c.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/fmt-1_0-rt.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/fmt-1_0.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/fmt.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/fn.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/permittedTaglibs.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/scriptfree.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/sql-1_0-rt.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/sql-1_0.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/sql.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/x-1_0-rt.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/x-1_0.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jstl-1.2.jar-1/META-INF/x.tld" project="AgenteMaps"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/tomcat-util.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/springframework/spring-web/3.2.13.RELEASE/spring-web-3.2.13.RELEASE.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/tomcat-dbcp.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/jboss/logging/jboss-logging/3.1.3.GA/jboss-logging-3.1.3.GA.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/catalina.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/catalina-tribes.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar"/>
+  <path value="/home/saturnino/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/jasper.jar"/>
+  <path value="/home/saturnino/.m2/repository/ch/qos/logback/logback-classic/1.0.13/logback-classic-1.0.13.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/springframework/spring-orm/4.0.3.RELEASE/spring-orm-4.0.3.RELEASE.jar"/>
+  <path value="/home/saturnino/.m2/repository/com/sun/el/el-ri/1.0/el-ri-1.0.jar"/>
+  <path value="/home/saturnino/.m2/repository/com/sun/faces/jsf-api/2.2.9/jsf-api-2.2.9.jar"/>
+  <path value="/home/saturnino/.m2/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar"/>
+  <path value="/home/saturnino/.m2/repository/javax/servlet/javax.servlet-api/3.0.1/javax.servlet-api-3.0.1.jar"/>
+  <path value="/home/saturnino/.m2/repository/com/sun/faces/jsf-impl/2.2.9/jsf-impl-2.2.9.jar">
+   <libraries>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/META-INF/html_basic.tld" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/META-INF/jsf_core.tld" project="AgenteMaps"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/META-INF/mojarra_ext.taglib.xml" project="AgenteMaps"/>
+    </library>
+    <library class="tld">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/META-INF/mojarra_ext.tld" project="AgenteMaps"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/composite.taglib.xml" project="AgenteMaps"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/facelets_jsf_core.taglib.xml" project="AgenteMaps"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/html_basic.taglib.xml" project="AgenteMaps"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/jstl-core.taglib.xml" project="AgenteMaps"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/jstl-fn.taglib.xml" project="AgenteMaps"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/mojarra_ext.taglib.xml" project="AgenteMaps"/>
+    </library>
+    <library class="facelet">
+     <id class="model-object"
+      path="FileSystems/lib-jsf-impl-2.2.9.jar/com/sun/faces/metadata/taglib/ui.taglib.xml" project="AgenteMaps"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/home/saturnino/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.0.0.Final/jboss-transaction-api_1.2_spec-1.0.0.Final.jar"/>
+  <path value="/home/saturnino/.m2/repository/commons-pool/commons-pool/1.5.4/commons-pool-1.5.4.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/hibernate/common/hibernate-commons-annotations/4.0.4.Final/hibernate-commons-annotations-4.0.4.Final.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/el-api.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/springframework/spring-beans/3.2.13.RELEASE/spring-beans-3.2.13.RELEASE.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/springframework/spring-context/3.2.13.RELEASE/spring-context-3.2.13.RELEASE.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/jsp-api.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/websocket-api.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/jboss/jandex/1.1.0.Final/jandex-1.1.0.Final.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/catalina-ant.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/jasper-el.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/tomcat-api.jar"/>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/annotations-api.jar"/>
+  <path value="/home/saturnino/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/springframework/spring-expression/3.2.13.RELEASE/spring-expression-3.2.13.RELEASE.jar"/>
+  <path value="/home/saturnino/.m2/repository/org/hibernate/hibernate-entitymanager/4.3.5.Final/hibernate-entitymanager-4.3.5.Final.jar"/>
+  <path value="/AgenteMapsface/WebContent/WEB-INF/faces-config.xml">
+   <libraries>
+    <library class="faces-config">
+     <id class="model-object"
+      path="FileSystems/WEB-INF/faces-config.xml" project="AgenteMapsface"/>
+    </library>
+   </libraries>
+  </path>
+  <path value="/home/saturnino/apache-tomcat-7.0.72/lib/tomcat7-websocket.jar"/>
+  <path value="/home/saturnino/.m2/repository/mysql/mysql-connector-java/5.1.9/mysql-connector-java-5.1.9.jar"/>
+  <path value="/home/saturnino/.m2/repository/javax/javaee-web-api/7.0/javaee-web-api-7.0.jar"/>
+ </paths>
+ <validation>
+  <core validator-id="jsf-verification"/>
+  <core validator-id="jboss.jsf.core"/>
+  <el>
+   <linked-el length="19" name="%0" offset="2338" path="%1"/>
+   <linked-el length="30" name="%2" offset="2639" path="%1"/>
+   <linked-el length="30" name="%2" offset="2805" path="%1"/>
+   <linked-el length="30" name="%2" offset="2974" path="%1"/>
+   <linked-el length="40" name="%3" offset="1900" path="%4"/>
+   <linked-el length="51" name="%3" offset="1504" path="%4"/>
+   <linked-el length="18" name="%5" offset="3908" path="%1"/>
+   <linked-el length="33" name="%6" offset="1869" path="%7"/>
+   <linked-el length="39" name="%6" offset="1659" path="%7"/>
+   <linked-el length="37" name="%6" offset="1494" path="%7"/>
+   <linked-el length="20" name="%8" offset="3169" path="%1"/>
+   <linked-el length="20" name="%8" offset="3322" path="%1"/>
+   <linked-el length="12" name="%9" offset="1934" path="%7"/>
+   <linked-el length="23" name="%10" offset="1243" path="%4"/>
+   <linked-el length="21" name="%10" offset="2006" path="%4"/>
+   <linked-el length="18" name="%11" offset="4751" path="%1"/>
+   <linked-el length="27" name="%12" offset="4091" path="%1"/>
+   <linked-el length="19" name="%13" offset="2338" path="%1"/>
+   <linked-el length="30" name="%14" offset="2639" path="%1"/>
+   <linked-el length="30" name="%14" offset="2805" path="%1"/>
+   <linked-el length="30" name="%14" offset="2974" path="%1"/>
+   <linked-el length="16" name="%15" offset="4574" path="%1"/>
+   <linked-el length="24" name="%16" offset="2027" path="%1"/>
+   <linked-el length="18" name="%17" offset="3908" path="%1"/>
+   <linked-el length="18" name="%18" offset="4751" path="%1"/>
+   <linked-el length="20" name="%19" offset="3169" path="%1"/>
+   <linked-el length="20" name="%19" offset="3322" path="%1"/>
+   <linked-el length="23" name="%20" offset="1243" path="%4"/>
+   <linked-el length="22" name="%20" offset="2042" path="%4"/>
+   <linked-el length="24" name="%20" offset="1383" path="%4"/>
+   <linked-el length="21" name="%20" offset="2006" path="%4"/>
+   <linked-el length="19" name="%20" offset="1972" path="%4"/>
+   <linked-el length="51" name="%20" offset="1504" path="%4"/>
+   <linked-el length="17" name="%21" offset="1990" path="%7"/>
+   <linked-el length="19" name="%21" offset="1378" path="%7"/>
+   <linked-el length="16" name="%22" offset="4574" path="%1"/>
+   <linked-el length="30" name="%23" offset="2639" path="%1"/>
+   <linked-el length="30" name="%23" offset="2805" path="%1"/>
+   <linked-el length="30" name="%23" offset="2974" path="%1"/>
+   <linked-el length="16" name="%24" offset="1243" path="%7"/>
+   <linked-el length="14" name="%24" offset="1961" path="%7"/>
+   <linked-el length="40" name="%25" offset="1900" path="%4"/>
+   <linked-el length="51" name="%25" offset="1504" path="%4"/>
+   <linked-el length="24" name="%26" offset="2027" path="%1"/>
+   <linked-el length="18" name="%27" offset="2193" path="%1"/>
+   <linked-el length="46" name="%28" offset="1683" path="%4"/>
+   <linked-el length="19" name="%29" offset="1972" path="%4"/>
+   <linked-el length="15" name="%30" offset="2488" path="%1"/>
+   <linked-el length="24" name="%31" offset="2027" path="%1"/>
+   <linked-el length="18" name="%32" offset="2193" path="%1"/>
+   <linked-el length="27" name="%33" offset="4091" path="%1"/>
+   <linked-el length="27" name="%34" offset="4091" path="%1"/>
+   <linked-el length="12" name="%35" offset="1934" path="%7"/>
+   <linked-el length="16" name="%35" offset="1243" path="%7"/>
+   <linked-el length="14" name="%35" offset="1961" path="%7"/>
+   <linked-el length="37" name="%35" offset="1494" path="%7"/>
+   <linked-el length="17" name="%35" offset="1990" path="%7"/>
+   <linked-el length="19" name="%35" offset="1378" path="%7"/>
+   <linked-el length="15" name="%36" offset="2488" path="%1"/>
+   <linked-el length="22" name="%37" offset="2042" path="%4"/>
+   <linked-el length="24" name="%37" offset="1383" path="%4"/>
+   <linked-el length="18" name="%38" offset="2193" path="%1"/>
+   <linked-el length="19" name="%38" offset="2338" path="%1"/>
+  </el>
+ </validation>
+ <aliases>
+  <alias path="jsf.impl" value="%0"/>
+  <alias path="org.springframework.version" value="%2"/>
+  <alias path="administradorService" value="%3"/>
+  <alias path="aspectj" value="%5"/>
+  <alias path="personService" value="%6"/>
+  <alias path="hibernate" value="%8"/>
+  <alias path="person.id" value="%9"/>
+  <alias path="administrador.nome" value="%10"/>
+  <alias path="logback" value="%11"/>
+  <alias path="spring" value="%12"/>
+  <alias path="/AgenteMapsface/pom.xml" value="%1"/>
+  <alias path="jsf.impl.version" value="%13"/>
+  <alias path="org.springframework" value="%14"/>
+  <alias path="slf4j.version" value="%15"/>
+  <alias path="javax" value="%16"/>
+  <alias path="/AgenteMapsface/WebContent/administrador.xhtml" value="%7"/>
+  <alias path="aspectj.version" value="%17"/>
+  <alias path="logback.version" value="%18"/>
+  <alias path="hibernate.version" value="%19"/>
+  <alias path="administrador" value="%20"/>
+  <alias path="person.country" value="%21"/>
+  <alias path="slf4j" value="%22"/>
+  <alias path="org" value="%23"/>
+  <alias path="/AgenteMapsface/WebContent/index.xhtml" value="%4"/>
+  <alias path="person.name" value="%24"/>
+  <alias
+   path="/AgenteMapsface/src/br/com/agentemaps/service/AdministradorServiceImpl.java" value="%25"/>
+  <alias path="javax.servlet.version" value="%26"/>
+  <alias path="jsf.api" value="%27"/>
+  <alias path="adminsitradorService" value="%28"/>
+  <alias path="administrador.id" value="%29"/>
+  <alias path="jstl" value="%30"/>
+  <alias path="javax.servlet" value="%31"/>
+  <alias path="jsf.api.version" value="%32"/>
+  <alias path="framework" value="%33"/>
+  <alias path="framework.version" value="%34"/>
+  <alias path="person" value="%35"/>
+  <alias path="jstl.version" value="%36"/>
+  <alias path="administrador.login" value="%37"/>
+  <alias path="jsf" value="%38"/>
+ </aliases>
+ <includes/>
+ <uris>
+  <uri value="http://java.sun.com/jsp/jstl/core">
+   <prefix>c</prefix>
+  </uri>
+  <uri value="http://java.sun.com/jsf/html">
+   <prefix>h</prefix>
+  </uri>
+ </uris>
+</kb-project>

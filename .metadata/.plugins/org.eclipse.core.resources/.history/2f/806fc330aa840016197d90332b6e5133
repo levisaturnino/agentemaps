@@ -1,0 +1,38 @@
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<html>
+<head>
+</head>
+<body>
+		<a href="/academicospringmvc/">Home</a> <br/> <a href="/academicospringmvc/pessoa/listpessoa">Voltar</a>
+		
+	<h3>Cadastro de Pessoa</h3>
+	<form:form method="POST" action="/academicospringmvc/pessoa/addpessoa"
+		modelAttribute="pessoa">
+		<table>
+			<tr>
+				<td><form:label path="cpf">CPF</form:label></td>
+				<td><form:input path="cpf" /></td>
+			</tr>
+			<tr>
+				<td><form:label path="nome">Nome</form:label></td>
+				<td><form:input path="nome" /></td>
+			</tr>
+			<tr>
+				<td><form:label path="sexo">sexo</form:label></td>
+				<td><form:input path="sexo" /></td>
+			</tr>
+			<tr>
+				<td><form:label path="tipoPessoa">Tipo Pessoa</form:label></td>
+				<td><select name="tipoPessoa">
+						<option value="Aluno">Aluno</option>
+						<option value="Professor">Professor</option></td>
+			<tr>
+			<tr>
+
+			</tr>
+			<td><input type="submit" value="Cadastrar" /></td>
+			</tr>
+		</table>
+	</form:form>
+</body>
+</html>

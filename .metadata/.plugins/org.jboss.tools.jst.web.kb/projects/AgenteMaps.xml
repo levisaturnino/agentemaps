@@ -329,5 +329,9 @@
   <alias path="jsf" value="%26"/>
  </aliases>
  <includes/>
- <uris/>
+ <uris>
+  <uri value="http://www.springframework.org/tags/form">
+   <prefix>form</prefix>
+  </uri>
+ </uris>
 </kb-project>
