@@ -1264,3 +1264,16 @@ org.jboss.tools.vpe.xulrunner.XulRunnerException: You currently have Visual edit
 
 !ENTRY org.eclipse.wst.server.discovery 1 0 2016-09-26 20:20:42.718
 !MESSAGE already installed: org.eclipse.jst.server.generic.jonas4
+!SESSION 2016-09-27 08:10:11.809 -----------------------------------------------
+eclipse.buildId=4.6.1.M20160831-0700
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-09-27 08:10:17.530
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2016-09-27 08:10:41.292
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
